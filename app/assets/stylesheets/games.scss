@@ -1,0 +1,36 @@
+// Fonts //
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,300i,400');
+
+// Layout //
+.container {
+  width: 900px;
+  margin: 80px auto;
+}
+
+// Utilities //
+body {
+  font-family: Roboto;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none!important;;
+}
+
+// Custom Design //
+.letters {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.letters > li {
+  display: inline-block;
+  padding: 20px;
+  color: white;
+  border: 1px solid lightgrey;
+  background-color: lightblue;
+}
