@@ -68,7 +68,7 @@ class GamesController < ApplicationController
   def calc_score(word, grid, start_time, end_time)
     time_score = measure_time(start_time, end_time)
     # Gives points when valid_word? and word_in_grid? both true
-    word_score = valid_word?(word) && word_in_grod?(word, grid) ? word.length * 100 : 0
+    word_score = valid_word?(word) && word_in_grid?(word, grid) ? word.length * 100 : 0
     if word_score.positive?
       word_score - time_score if (word_score - time_score).positive? #=> Additional loop ensures word_score > 0
     else
