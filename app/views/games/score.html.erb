@@ -1,8 +1,11 @@
-<h1>Result</h1>
-<p> <%= @result[:message] %> </p>
-<p>time: <%= @result[:time] %> </p>
-<p>score: <%= @result[:score] %> </p>
+<h1 class="mb-4">Result</h1>
 
+<div class="mb-4">
+  <p class="mb-4 message"> <%= @result[:message] %> </p>
+  <div class="results">
+    <p>Time: <%= @result[:time] %></p>
+    <p>Score: <%= @result[:score] %> </p>
+  </div>
+</div>
 
 <%= link_to 'Play again', root_path %>
-

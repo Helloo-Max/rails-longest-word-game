@@ -1,3 +1,5 @@
+// Documentation: https://albert-gonzalez.github.io/easytimer.js/
+
 import Timer from "easytimer.js";
 
 const initEasyTimer = () => {
